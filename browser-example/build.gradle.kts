@@ -3,7 +3,10 @@ import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
 plugins {
     kotlin("multiplatform") version "1.9.20"
     // kotlin("multiplatform") version "2.0.0-Beta1"
+<<<<<<< HEAD
     //kotlin("wasm") version "0.3.1"
+=======
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
 }
 
 group = "me.user"

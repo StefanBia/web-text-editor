@@ -40,7 +40,11 @@ config.devServer = {
   "static": [
     "kotlin",
     "..\\..\\..\\processedResources\\wasmJs\\main",
+<<<<<<< HEAD
     "E:\\kotlin-wasm-examples\\browser-example"
+=======
+    "E:\\text-editor\\kotlin-wasm-examples\\browser-example"
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
   ],
   "client": {
     "overlay": {

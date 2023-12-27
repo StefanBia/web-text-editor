@@ -1553,6 +1553,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.scrollBy_$external_fun_3' : (_this, p0, p1) => _this.scrollBy(p0, p1),
         'org.w3c.dom.getComputedStyle_$external_fun' : (_this, p0, p1, isDefault0) => _this.getComputedStyle(p0, isDefault0 ? undefined : p1, ),
         'org.w3c.dom.Window_$external_class_instanceof' : (x) => x instanceof Window,
+<<<<<<< HEAD
         'org.w3c.dom.HTMLAnchorElement_$external_fun' : () => new HTMLAnchorElement(),
         'org.w3c.dom.target_$external_prop_getter' : (_this) => _this.target,
         'org.w3c.dom.target_$external_prop_setter' : (_this, v) => _this.target = v,
@@ -1603,6 +1604,8 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.Companion_$external_object_getInstance_4' : () => HTMLAnchorElement,
         'org.w3c.dom.Companion_$external_class_instanceof_4' : (x) => x instanceof HTMLAnchorElement,
         'org.w3c.dom.HTMLAnchorElement_$external_class_instanceof' : (x) => x instanceof HTMLAnchorElement,
+=======
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.Node_$external_fun' : () => new Node(),
         'org.w3c.dom.nodeType_$external_prop_getter' : (_this) => _this.nodeType,
         'org.w3c.dom.nodeName_$external_prop_getter' : (_this) => _this.nodeName,
@@ -1635,6 +1638,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.appendChild_$external_fun' : (_this, p0) => _this.appendChild(p0),
         'org.w3c.dom.replaceChild_$external_fun' : (_this, p0, p1) => _this.replaceChild(p0, p1),
         'org.w3c.dom.removeChild_$external_fun' : (_this, p0) => _this.removeChild(p0),
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_5' : () => new Node(),
         'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_5' : (_this) => _this.ELEMENT_NODE,
         'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_5' : (_this) => _this.ATTRIBUTE_NODE,
@@ -1656,6 +1660,29 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_5' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
         'org.w3c.dom.Companion_$external_object_getInstance_5' : () => Node,
         'org.w3c.dom.Companion_$external_class_instanceof_5' : (x) => x instanceof Node,
+=======
+        'org.w3c.dom.Companion_$external_fun_4' : () => new Node(),
+        'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_4' : (_this) => _this.ELEMENT_NODE,
+        'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_4' : (_this) => _this.ATTRIBUTE_NODE,
+        'org.w3c.dom.TEXT_NODE_$external_prop_getter_4' : (_this) => _this.TEXT_NODE,
+        'org.w3c.dom.CDATA_SECTION_NODE_$external_prop_getter_4' : (_this) => _this.CDATA_SECTION_NODE,
+        'org.w3c.dom.ENTITY_REFERENCE_NODE_$external_prop_getter_4' : (_this) => _this.ENTITY_REFERENCE_NODE,
+        'org.w3c.dom.ENTITY_NODE_$external_prop_getter_4' : (_this) => _this.ENTITY_NODE,
+        'org.w3c.dom.PROCESSING_INSTRUCTION_NODE_$external_prop_getter_4' : (_this) => _this.PROCESSING_INSTRUCTION_NODE,
+        'org.w3c.dom.COMMENT_NODE_$external_prop_getter_4' : (_this) => _this.COMMENT_NODE,
+        'org.w3c.dom.DOCUMENT_NODE_$external_prop_getter_4' : (_this) => _this.DOCUMENT_NODE,
+        'org.w3c.dom.DOCUMENT_TYPE_NODE_$external_prop_getter_4' : (_this) => _this.DOCUMENT_TYPE_NODE,
+        'org.w3c.dom.DOCUMENT_FRAGMENT_NODE_$external_prop_getter_4' : (_this) => _this.DOCUMENT_FRAGMENT_NODE,
+        'org.w3c.dom.NOTATION_NODE_$external_prop_getter_4' : (_this) => _this.NOTATION_NODE,
+        'org.w3c.dom.DOCUMENT_POSITION_DISCONNECTED_$external_prop_getter_4' : (_this) => _this.DOCUMENT_POSITION_DISCONNECTED,
+        'org.w3c.dom.DOCUMENT_POSITION_PRECEDING_$external_prop_getter_4' : (_this) => _this.DOCUMENT_POSITION_PRECEDING,
+        'org.w3c.dom.DOCUMENT_POSITION_FOLLOWING_$external_prop_getter_4' : (_this) => _this.DOCUMENT_POSITION_FOLLOWING,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_4' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_4' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
+        'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_4' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+        'org.w3c.dom.Companion_$external_object_getInstance_4' : () => Node,
+        'org.w3c.dom.Companion_$external_class_instanceof_4' : (x) => x instanceof Node,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.Node_$external_class_instanceof' : (x) => x instanceof Node,
         'org.w3c.dom.children_$external_prop_getter_1' : (_this) => _this.children,
         'org.w3c.dom.firstElementChild_$external_prop_getter_1' : (_this) => _this.firstElementChild,
@@ -1711,7 +1738,42 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.mode_$external_prop_getter' : (_this) => _this.mode,
         'org.w3c.dom.host_$external_prop_getter' : (_this) => _this.host,
         'org.w3c.dom.fullscreenElement_$external_prop_getter_1' : (_this) => _this.fullscreenElement,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_6' : () => new ShadowRoot(),
+=======
+        'org.w3c.dom.Companion_$external_fun_5' : () => new ShadowRoot(),
+        'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_5' : (_this) => _this.ELEMENT_NODE,
+        'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_5' : (_this) => _this.ATTRIBUTE_NODE,
+        'org.w3c.dom.TEXT_NODE_$external_prop_getter_5' : (_this) => _this.TEXT_NODE,
+        'org.w3c.dom.CDATA_SECTION_NODE_$external_prop_getter_5' : (_this) => _this.CDATA_SECTION_NODE,
+        'org.w3c.dom.ENTITY_REFERENCE_NODE_$external_prop_getter_5' : (_this) => _this.ENTITY_REFERENCE_NODE,
+        'org.w3c.dom.ENTITY_NODE_$external_prop_getter_5' : (_this) => _this.ENTITY_NODE,
+        'org.w3c.dom.PROCESSING_INSTRUCTION_NODE_$external_prop_getter_5' : (_this) => _this.PROCESSING_INSTRUCTION_NODE,
+        'org.w3c.dom.COMMENT_NODE_$external_prop_getter_5' : (_this) => _this.COMMENT_NODE,
+        'org.w3c.dom.DOCUMENT_NODE_$external_prop_getter_5' : (_this) => _this.DOCUMENT_NODE,
+        'org.w3c.dom.DOCUMENT_TYPE_NODE_$external_prop_getter_5' : (_this) => _this.DOCUMENT_TYPE_NODE,
+        'org.w3c.dom.DOCUMENT_FRAGMENT_NODE_$external_prop_getter_5' : (_this) => _this.DOCUMENT_FRAGMENT_NODE,
+        'org.w3c.dom.NOTATION_NODE_$external_prop_getter_5' : (_this) => _this.NOTATION_NODE,
+        'org.w3c.dom.DOCUMENT_POSITION_DISCONNECTED_$external_prop_getter_5' : (_this) => _this.DOCUMENT_POSITION_DISCONNECTED,
+        'org.w3c.dom.DOCUMENT_POSITION_PRECEDING_$external_prop_getter_5' : (_this) => _this.DOCUMENT_POSITION_PRECEDING,
+        'org.w3c.dom.DOCUMENT_POSITION_FOLLOWING_$external_prop_getter_5' : (_this) => _this.DOCUMENT_POSITION_FOLLOWING,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_5' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_5' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
+        'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_5' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+        'org.w3c.dom.Companion_$external_object_getInstance_5' : () => ShadowRoot,
+        'org.w3c.dom.Companion_$external_class_instanceof_5' : (x) => x instanceof ShadowRoot,
+        'org.w3c.dom.ShadowRoot_$external_class_instanceof' : (x) => x instanceof ShadowRoot,
+        'org.w3c.dom.Attr_$external_fun' : () => new Attr(),
+        'org.w3c.dom.namespaceURI_$external_prop_getter_1' : (_this) => _this.namespaceURI,
+        'org.w3c.dom.prefix_$external_prop_getter_1' : (_this) => _this.prefix,
+        'org.w3c.dom.localName_$external_prop_getter_1' : (_this) => _this.localName,
+        'org.w3c.dom.name_$external_prop_getter_2' : (_this) => _this.name,
+        'org.w3c.dom.value_$external_prop_getter_2' : (_this) => _this.value,
+        'org.w3c.dom.value_$external_prop_setter_2' : (_this, v) => _this.value = v,
+        'org.w3c.dom.ownerElement_$external_prop_getter' : (_this) => _this.ownerElement,
+        'org.w3c.dom.specified_$external_prop_getter' : (_this) => _this.specified,
+        'org.w3c.dom.Companion_$external_fun_6' : () => new Attr(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_6' : (_this) => _this.ELEMENT_NODE,
         'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_6' : (_this) => _this.ATTRIBUTE_NODE,
         'org.w3c.dom.TEXT_NODE_$external_prop_getter_6' : (_this) => _this.TEXT_NODE,
@@ -1730,6 +1792,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_6' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_6' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_6' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_6' : () => ShadowRoot,
         'org.w3c.dom.Companion_$external_class_instanceof_6' : (x) => x instanceof ShadowRoot,
         'org.w3c.dom.ShadowRoot_$external_class_instanceof' : (x) => x instanceof ShadowRoot,
@@ -1763,6 +1826,10 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_7' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
         'org.w3c.dom.Companion_$external_object_getInstance_7' : () => Attr,
         'org.w3c.dom.Companion_$external_class_instanceof_7' : (x) => x instanceof Attr,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_6' : () => Attr,
+        'org.w3c.dom.Companion_$external_class_instanceof_6' : (x) => x instanceof Attr,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.Attr_$external_class_instanceof' : (x) => x instanceof Attr,
         'org.w3c.dom.mode_$external_prop_getter_1' : (_this) => _this.mode,
         'org.w3c.dom.mode_$external_prop_setter' : (_this, v) => _this.mode = v,
@@ -1938,13 +2005,56 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOMStringMap_$external_fun' : () => new DOMStringMap(),
         'org.w3c.dom.DOMStringMap_$external_class_instanceof' : (x) => x instanceof DOMStringMap,
         'org.w3c.dom.HTMLMenuElement_$external_fun' : () => new HTMLMenuElement(),
+<<<<<<< HEAD
         'org.w3c.dom.type_$external_prop_getter_2' : (_this) => _this.type,
         'org.w3c.dom.type_$external_prop_setter_2' : (_this, v) => _this.type = v,
+=======
+        'org.w3c.dom.type_$external_prop_getter_1' : (_this) => _this.type,
+        'org.w3c.dom.type_$external_prop_setter_1' : (_this, v) => _this.type = v,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.label_$external_prop_getter' : (_this) => _this.label,
         'org.w3c.dom.label_$external_prop_setter' : (_this, v) => _this.label = v,
         'org.w3c.dom.compact_$external_prop_getter' : (_this) => _this.compact,
         'org.w3c.dom.compact_$external_prop_setter' : (_this, v) => _this.compact = v,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_8' : () => new HTMLMenuElement(),
+=======
+        'org.w3c.dom.Companion_$external_fun_7' : () => new HTMLMenuElement(),
+        'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_7' : (_this) => _this.ELEMENT_NODE,
+        'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_7' : (_this) => _this.ATTRIBUTE_NODE,
+        'org.w3c.dom.TEXT_NODE_$external_prop_getter_7' : (_this) => _this.TEXT_NODE,
+        'org.w3c.dom.CDATA_SECTION_NODE_$external_prop_getter_7' : (_this) => _this.CDATA_SECTION_NODE,
+        'org.w3c.dom.ENTITY_REFERENCE_NODE_$external_prop_getter_7' : (_this) => _this.ENTITY_REFERENCE_NODE,
+        'org.w3c.dom.ENTITY_NODE_$external_prop_getter_7' : (_this) => _this.ENTITY_NODE,
+        'org.w3c.dom.PROCESSING_INSTRUCTION_NODE_$external_prop_getter_7' : (_this) => _this.PROCESSING_INSTRUCTION_NODE,
+        'org.w3c.dom.COMMENT_NODE_$external_prop_getter_7' : (_this) => _this.COMMENT_NODE,
+        'org.w3c.dom.DOCUMENT_NODE_$external_prop_getter_7' : (_this) => _this.DOCUMENT_NODE,
+        'org.w3c.dom.DOCUMENT_TYPE_NODE_$external_prop_getter_7' : (_this) => _this.DOCUMENT_TYPE_NODE,
+        'org.w3c.dom.DOCUMENT_FRAGMENT_NODE_$external_prop_getter_7' : (_this) => _this.DOCUMENT_FRAGMENT_NODE,
+        'org.w3c.dom.NOTATION_NODE_$external_prop_getter_7' : (_this) => _this.NOTATION_NODE,
+        'org.w3c.dom.DOCUMENT_POSITION_DISCONNECTED_$external_prop_getter_7' : (_this) => _this.DOCUMENT_POSITION_DISCONNECTED,
+        'org.w3c.dom.DOCUMENT_POSITION_PRECEDING_$external_prop_getter_7' : (_this) => _this.DOCUMENT_POSITION_PRECEDING,
+        'org.w3c.dom.DOCUMENT_POSITION_FOLLOWING_$external_prop_getter_7' : (_this) => _this.DOCUMENT_POSITION_FOLLOWING,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_7' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_7' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
+        'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_7' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+        'org.w3c.dom.Companion_$external_object_getInstance_7' : () => HTMLMenuElement,
+        'org.w3c.dom.Companion_$external_class_instanceof_7' : (x) => x instanceof HTMLMenuElement,
+        'org.w3c.dom.HTMLMenuElement_$external_class_instanceof' : (x) => x instanceof HTMLMenuElement,
+        'org.w3c.dom.getElementById_$external_fun_1' : (_this, p0) => _this.getElementById(p0),
+        'org.w3c.dom.fullscreenElement_$external_prop_getter_2' : (_this) => _this.fullscreenElement,
+        'org.w3c.dom.DOMImplementation_$external_fun' : () => new DOMImplementation(),
+        'org.w3c.dom.createDocumentType_$external_fun' : (_this, p0, p1, p2) => _this.createDocumentType(p0, p1, p2),
+        'org.w3c.dom.createDocument_$external_fun' : (_this, p0, p1, p2, isDefault0) => _this.createDocument(p0, p1, isDefault0 ? undefined : p2, ),
+        'org.w3c.dom.createHTMLDocument_$external_fun' : (_this, p0, isDefault0) => _this.createHTMLDocument(isDefault0 ? undefined : p0, ),
+        'org.w3c.dom.hasFeature_$external_fun' : (_this, ) => _this.hasFeature(),
+        'org.w3c.dom.DOMImplementation_$external_class_instanceof' : (x) => x instanceof DOMImplementation,
+        'org.w3c.dom.DocumentType_$external_fun' : () => new DocumentType(),
+        'org.w3c.dom.name_$external_prop_getter_3' : (_this) => _this.name,
+        'org.w3c.dom.publicId_$external_prop_getter' : (_this) => _this.publicId,
+        'org.w3c.dom.systemId_$external_prop_getter' : (_this) => _this.systemId,
+        'org.w3c.dom.Companion_$external_fun_8' : () => new DocumentType(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_8' : (_this) => _this.ELEMENT_NODE,
         'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_8' : (_this) => _this.ATTRIBUTE_NODE,
         'org.w3c.dom.TEXT_NODE_$external_prop_getter_8' : (_this) => _this.TEXT_NODE,
@@ -1963,6 +2073,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_8' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_8' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_8' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_8' : () => HTMLMenuElement,
         'org.w3c.dom.Companion_$external_class_instanceof_8' : (x) => x instanceof HTMLMenuElement,
         'org.w3c.dom.HTMLMenuElement_$external_class_instanceof' : (x) => x instanceof HTMLMenuElement,
@@ -1999,6 +2110,10 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_9' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
         'org.w3c.dom.Companion_$external_object_getInstance_9' : () => DocumentType,
         'org.w3c.dom.Companion_$external_class_instanceof_9' : (x) => x instanceof DocumentType,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_8' : () => DocumentType,
+        'org.w3c.dom.Companion_$external_class_instanceof_8' : (x) => x instanceof DocumentType,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.DocumentType_$external_class_instanceof' : (x) => x instanceof DocumentType,
         'org.w3c.dom.Location_$external_fun' : () => new Location(),
         'org.w3c.dom.href_$external_prop_getter' : (_this) => _this.href,
@@ -2023,11 +2138,70 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.replace_$external_fun_1' : (_this, p0) => _this.replace(p0),
         'org.w3c.dom.reload_$external_fun' : (_this, ) => _this.reload(),
         'org.w3c.dom.Location_$external_class_instanceof' : (x) => x instanceof Location,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_10' : () => new ({})(),
         'org.w3c.dom.Companion_$external_object_getInstance_10' : () => ({}),
         'org.w3c.dom.Companion_$external_class_instanceof_10' : (x) => x instanceof ({}),
         'org.w3c.dom.HTMLHeadElement_$external_fun' : () => new HTMLHeadElement(),
         'org.w3c.dom.Companion_$external_fun_11' : () => new HTMLHeadElement(),
+=======
+        'org.w3c.dom.Companion_$external_fun_9' : () => new ({})(),
+        'org.w3c.dom.Companion_$external_object_getInstance_9' : () => ({}),
+        'org.w3c.dom.Companion_$external_class_instanceof_9' : (x) => x instanceof ({}),
+        'org.w3c.dom.HTMLHeadElement_$external_fun' : () => new HTMLHeadElement(),
+        'org.w3c.dom.Companion_$external_fun_10' : () => new HTMLHeadElement(),
+        'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_9' : (_this) => _this.ELEMENT_NODE,
+        'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_9' : (_this) => _this.ATTRIBUTE_NODE,
+        'org.w3c.dom.TEXT_NODE_$external_prop_getter_9' : (_this) => _this.TEXT_NODE,
+        'org.w3c.dom.CDATA_SECTION_NODE_$external_prop_getter_9' : (_this) => _this.CDATA_SECTION_NODE,
+        'org.w3c.dom.ENTITY_REFERENCE_NODE_$external_prop_getter_9' : (_this) => _this.ENTITY_REFERENCE_NODE,
+        'org.w3c.dom.ENTITY_NODE_$external_prop_getter_9' : (_this) => _this.ENTITY_NODE,
+        'org.w3c.dom.PROCESSING_INSTRUCTION_NODE_$external_prop_getter_9' : (_this) => _this.PROCESSING_INSTRUCTION_NODE,
+        'org.w3c.dom.COMMENT_NODE_$external_prop_getter_9' : (_this) => _this.COMMENT_NODE,
+        'org.w3c.dom.DOCUMENT_NODE_$external_prop_getter_9' : (_this) => _this.DOCUMENT_NODE,
+        'org.w3c.dom.DOCUMENT_TYPE_NODE_$external_prop_getter_9' : (_this) => _this.DOCUMENT_TYPE_NODE,
+        'org.w3c.dom.DOCUMENT_FRAGMENT_NODE_$external_prop_getter_9' : (_this) => _this.DOCUMENT_FRAGMENT_NODE,
+        'org.w3c.dom.NOTATION_NODE_$external_prop_getter_9' : (_this) => _this.NOTATION_NODE,
+        'org.w3c.dom.DOCUMENT_POSITION_DISCONNECTED_$external_prop_getter_9' : (_this) => _this.DOCUMENT_POSITION_DISCONNECTED,
+        'org.w3c.dom.DOCUMENT_POSITION_PRECEDING_$external_prop_getter_9' : (_this) => _this.DOCUMENT_POSITION_PRECEDING,
+        'org.w3c.dom.DOCUMENT_POSITION_FOLLOWING_$external_prop_getter_9' : (_this) => _this.DOCUMENT_POSITION_FOLLOWING,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_9' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_9' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
+        'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_9' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+        'org.w3c.dom.Companion_$external_object_getInstance_10' : () => HTMLHeadElement,
+        'org.w3c.dom.Companion_$external_class_instanceof_10' : (x) => x instanceof HTMLHeadElement,
+        'org.w3c.dom.HTMLHeadElement_$external_class_instanceof' : (x) => x instanceof HTMLHeadElement,
+        'org.w3c.dom.HTMLAllCollection_$external_fun' : () => new HTMLAllCollection(),
+        'org.w3c.dom.length_$external_prop_getter_2' : (_this) => _this.length,
+        'org.w3c.dom.item_$external_fun_4' : (_this, p0, isDefault0) => _this.item(isDefault0 ? undefined : p0, ),
+        'org.w3c.dom.namedItem_$external_fun_1' : (_this, p0) => _this.namedItem(p0),
+        'org.w3c.dom.HTMLAllCollection_$external_class_instanceof' : (x) => x instanceof HTMLAllCollection,
+        'org.w3c.dom.DragEvent_$external_fun' : (p0, p1, isDefault0) => new DragEvent(p0, isDefault0 ? undefined : p1, ),
+        'org.w3c.dom.dataTransfer_$external_prop_getter' : (_this) => _this.dataTransfer,
+        'org.w3c.dom.Companion_$external_fun_11' : () => new DragEvent(),
+        'org.w3c.dom.NONE_$external_prop_getter' : (_this) => _this.NONE,
+        'org.w3c.dom.CAPTURING_PHASE_$external_prop_getter' : (_this) => _this.CAPTURING_PHASE,
+        'org.w3c.dom.AT_TARGET_$external_prop_getter' : (_this) => _this.AT_TARGET,
+        'org.w3c.dom.BUBBLING_PHASE_$external_prop_getter' : (_this) => _this.BUBBLING_PHASE,
+        'org.w3c.dom.Companion_$external_object_getInstance_11' : () => DragEvent,
+        'org.w3c.dom.Companion_$external_class_instanceof_11' : (x) => x instanceof DragEvent,
+        'org.w3c.dom.DragEvent_$external_class_instanceof' : (x) => x instanceof DragEvent,
+        'org.w3c.dom.is_$external_prop_getter' : (_this) => _this.is,
+        'org.w3c.dom.is_$external_prop_setter' : (_this, v) => _this.is = v,
+        'org.w3c.dom.DocumentFragment_$external_fun' : () => new DocumentFragment(),
+        'org.w3c.dom.children_$external_prop_getter_2' : (_this) => _this.children,
+        'org.w3c.dom.firstElementChild_$external_prop_getter_2' : (_this) => _this.firstElementChild,
+        'org.w3c.dom.lastElementChild_$external_prop_getter_2' : (_this) => _this.lastElementChild,
+        'org.w3c.dom.childElementCount_$external_prop_getter_2' : (_this) => _this.childElementCount,
+        'org.w3c.dom.getElementById_$external_fun_2' : (_this, p0) => _this.getElementById(p0),
+        'org.w3c.dom.prepend_$external_fun_4' : (_this, p0) => _this.prepend(...p0),
+        'org.w3c.dom.prepend_$external_fun_5' : (_this, p0) => _this.prepend(...p0),
+        'org.w3c.dom.append_$external_fun_4' : (_this, p0) => _this.append(...p0),
+        'org.w3c.dom.append_$external_fun_5' : (_this, p0) => _this.append(...p0),
+        'org.w3c.dom.querySelector_$external_fun_2' : (_this, p0) => _this.querySelector(p0),
+        'org.w3c.dom.querySelectorAll_$external_fun_2' : (_this, p0) => _this.querySelectorAll(p0),
+        'org.w3c.dom.Companion_$external_fun_12' : () => new DocumentFragment(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_10' : (_this) => _this.ELEMENT_NODE,
         'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_10' : (_this) => _this.ATTRIBUTE_NODE,
         'org.w3c.dom.TEXT_NODE_$external_prop_getter_10' : (_this) => _this.TEXT_NODE,
@@ -2046,6 +2220,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_10' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_10' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_10' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_11' : () => HTMLHeadElement,
         'org.w3c.dom.Companion_$external_class_instanceof_11' : (x) => x instanceof HTMLHeadElement,
         'org.w3c.dom.HTMLHeadElement_$external_class_instanceof' : (x) => x instanceof HTMLHeadElement,
@@ -2099,6 +2274,10 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_11' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
         'org.w3c.dom.Companion_$external_object_getInstance_13' : () => DocumentFragment,
         'org.w3c.dom.Companion_$external_class_instanceof_13' : (x) => x instanceof DocumentFragment,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_12' : () => DocumentFragment,
+        'org.w3c.dom.Companion_$external_class_instanceof_12' : (x) => x instanceof DocumentFragment,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.DocumentFragment_$external_class_instanceof' : (x) => x instanceof DocumentFragment,
         'org.w3c.dom.Text_$external_fun' : (p0, isDefault0) => new Text(isDefault0 ? undefined : p0, ),
         'org.w3c.dom.wholeText_$external_prop_getter' : (_this) => _this.wholeText,
@@ -2123,7 +2302,34 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.replaceWith_$external_fun_2' : (_this, p0) => _this.replaceWith(...p0),
         'org.w3c.dom.replaceWith_$external_fun_3' : (_this, p0) => _this.replaceWith(...p0),
         'org.w3c.dom.remove_$external_fun_2' : (_this, ) => _this.remove(),
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_14' : () => new Text(),
+=======
+        'org.w3c.dom.Companion_$external_fun_13' : () => new Text(),
+        'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_11' : (_this) => _this.ELEMENT_NODE,
+        'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_11' : (_this) => _this.ATTRIBUTE_NODE,
+        'org.w3c.dom.TEXT_NODE_$external_prop_getter_11' : (_this) => _this.TEXT_NODE,
+        'org.w3c.dom.CDATA_SECTION_NODE_$external_prop_getter_11' : (_this) => _this.CDATA_SECTION_NODE,
+        'org.w3c.dom.ENTITY_REFERENCE_NODE_$external_prop_getter_11' : (_this) => _this.ENTITY_REFERENCE_NODE,
+        'org.w3c.dom.ENTITY_NODE_$external_prop_getter_11' : (_this) => _this.ENTITY_NODE,
+        'org.w3c.dom.PROCESSING_INSTRUCTION_NODE_$external_prop_getter_11' : (_this) => _this.PROCESSING_INSTRUCTION_NODE,
+        'org.w3c.dom.COMMENT_NODE_$external_prop_getter_11' : (_this) => _this.COMMENT_NODE,
+        'org.w3c.dom.DOCUMENT_NODE_$external_prop_getter_11' : (_this) => _this.DOCUMENT_NODE,
+        'org.w3c.dom.DOCUMENT_TYPE_NODE_$external_prop_getter_11' : (_this) => _this.DOCUMENT_TYPE_NODE,
+        'org.w3c.dom.DOCUMENT_FRAGMENT_NODE_$external_prop_getter_11' : (_this) => _this.DOCUMENT_FRAGMENT_NODE,
+        'org.w3c.dom.NOTATION_NODE_$external_prop_getter_11' : (_this) => _this.NOTATION_NODE,
+        'org.w3c.dom.DOCUMENT_POSITION_DISCONNECTED_$external_prop_getter_11' : (_this) => _this.DOCUMENT_POSITION_DISCONNECTED,
+        'org.w3c.dom.DOCUMENT_POSITION_PRECEDING_$external_prop_getter_11' : (_this) => _this.DOCUMENT_POSITION_PRECEDING,
+        'org.w3c.dom.DOCUMENT_POSITION_FOLLOWING_$external_prop_getter_11' : (_this) => _this.DOCUMENT_POSITION_FOLLOWING,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_11' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_11' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
+        'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_11' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+        'org.w3c.dom.Companion_$external_object_getInstance_13' : () => Text,
+        'org.w3c.dom.Companion_$external_class_instanceof_13' : (x) => x instanceof Text,
+        'org.w3c.dom.Text_$external_class_instanceof' : (x) => x instanceof Text,
+        'org.w3c.dom.CDATASection_$external_fun' : () => new CDATASection(),
+        'org.w3c.dom.Companion_$external_fun_14' : () => new CDATASection(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_12' : (_this) => _this.ELEMENT_NODE,
         'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_12' : (_this) => _this.ATTRIBUTE_NODE,
         'org.w3c.dom.TEXT_NODE_$external_prop_getter_12' : (_this) => _this.TEXT_NODE,
@@ -2142,11 +2348,28 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_12' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_12' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_12' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_14' : () => Text,
         'org.w3c.dom.Companion_$external_class_instanceof_14' : (x) => x instanceof Text,
         'org.w3c.dom.Text_$external_class_instanceof' : (x) => x instanceof Text,
         'org.w3c.dom.CDATASection_$external_fun' : () => new CDATASection(),
         'org.w3c.dom.Companion_$external_fun_15' : () => new CDATASection(),
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_14' : () => CDATASection,
+        'org.w3c.dom.Companion_$external_class_instanceof_14' : (x) => x instanceof CDATASection,
+        'org.w3c.dom.CDATASection_$external_class_instanceof' : (x) => x instanceof CDATASection,
+        'org.w3c.dom.Comment_$external_fun' : (p0, isDefault0) => new Comment(isDefault0 ? undefined : p0, ),
+        'org.w3c.dom.previousElementSibling_$external_prop_getter_2' : (_this) => _this.previousElementSibling,
+        'org.w3c.dom.nextElementSibling_$external_prop_getter_2' : (_this) => _this.nextElementSibling,
+        'org.w3c.dom.before_$external_fun_4' : (_this, p0) => _this.before(...p0),
+        'org.w3c.dom.before_$external_fun_5' : (_this, p0) => _this.before(...p0),
+        'org.w3c.dom.after_$external_fun_4' : (_this, p0) => _this.after(...p0),
+        'org.w3c.dom.after_$external_fun_5' : (_this, p0) => _this.after(...p0),
+        'org.w3c.dom.replaceWith_$external_fun_4' : (_this, p0) => _this.replaceWith(...p0),
+        'org.w3c.dom.replaceWith_$external_fun_5' : (_this, p0) => _this.replaceWith(...p0),
+        'org.w3c.dom.remove_$external_fun_3' : (_this, ) => _this.remove(),
+        'org.w3c.dom.Companion_$external_fun_15' : () => new Comment(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_13' : (_this) => _this.ELEMENT_NODE,
         'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_13' : (_this) => _this.ATTRIBUTE_NODE,
         'org.w3c.dom.TEXT_NODE_$external_prop_getter_13' : (_this) => _this.TEXT_NODE,
@@ -2165,6 +2388,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_13' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_13' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_13' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_15' : () => CDATASection,
         'org.w3c.dom.Companion_$external_class_instanceof_15' : (x) => x instanceof CDATASection,
         'org.w3c.dom.CDATASection_$external_class_instanceof' : (x) => x instanceof CDATASection,
@@ -2179,6 +2403,14 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.replaceWith_$external_fun_5' : (_this, p0) => _this.replaceWith(...p0),
         'org.w3c.dom.remove_$external_fun_3' : (_this, ) => _this.remove(),
         'org.w3c.dom.Companion_$external_fun_16' : () => new Comment(),
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_15' : () => Comment,
+        'org.w3c.dom.Companion_$external_class_instanceof_15' : (x) => x instanceof Comment,
+        'org.w3c.dom.Comment_$external_class_instanceof' : (x) => x instanceof Comment,
+        'org.w3c.dom.ProcessingInstruction_$external_fun' : () => new ProcessingInstruction(),
+        'org.w3c.dom.target_$external_prop_getter' : (_this) => _this.target,
+        'org.w3c.dom.Companion_$external_fun_16' : () => new ProcessingInstruction(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_14' : (_this) => _this.ELEMENT_NODE,
         'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_14' : (_this) => _this.ATTRIBUTE_NODE,
         'org.w3c.dom.TEXT_NODE_$external_prop_getter_14' : (_this) => _this.TEXT_NODE,
@@ -2197,6 +2429,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_14' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_14' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_14' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_16' : () => Comment,
         'org.w3c.dom.Companion_$external_class_instanceof_16' : (x) => x instanceof Comment,
         'org.w3c.dom.Comment_$external_class_instanceof' : (x) => x instanceof Comment,
@@ -2223,6 +2456,10 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_15' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
         'org.w3c.dom.Companion_$external_object_getInstance_17' : () => ProcessingInstruction,
         'org.w3c.dom.Companion_$external_class_instanceof_17' : (x) => x instanceof ProcessingInstruction,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_16' : () => ProcessingInstruction,
+        'org.w3c.dom.Companion_$external_class_instanceof_16' : (x) => x instanceof ProcessingInstruction,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.ProcessingInstruction_$external_class_instanceof' : (x) => x instanceof ProcessingInstruction,
         'org.w3c.dom.Range_$external_fun' : () => new Range(),
         'org.w3c.dom.startContainer_$external_prop_getter' : (_this) => _this.startContainer,
@@ -2254,13 +2491,22 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.getClientRects_$external_fun_1' : (_this, ) => _this.getClientRects(),
         'org.w3c.dom.getBoundingClientRect_$external_fun_1' : (_this, ) => _this.getBoundingClientRect(),
         'org.w3c.dom.createContextualFragment_$external_fun' : (_this, p0) => _this.createContextualFragment(p0),
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_18' : () => new Range(),
+=======
+        'org.w3c.dom.Companion_$external_fun_17' : () => new Range(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.START_TO_START_$external_prop_getter' : (_this) => _this.START_TO_START,
         'org.w3c.dom.START_TO_END_$external_prop_getter' : (_this) => _this.START_TO_END,
         'org.w3c.dom.END_TO_END_$external_prop_getter' : (_this) => _this.END_TO_END,
         'org.w3c.dom.END_TO_START_$external_prop_getter' : (_this) => _this.END_TO_START,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_18' : () => Range,
         'org.w3c.dom.Companion_$external_class_instanceof_18' : (x) => x instanceof Range,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_17' : () => Range,
+        'org.w3c.dom.Companion_$external_class_instanceof_17' : (x) => x instanceof Range,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.Range_$external_class_instanceof' : (x) => x instanceof Range,
         'org.w3c.dom.NodeIterator_$external_fun' : () => new NodeIterator(),
         'org.w3c.dom.root_$external_prop_getter' : (_this) => _this.root,
@@ -2273,7 +2519,11 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.detach_$external_fun_1' : (_this, ) => _this.detach(),
         'org.w3c.dom.NodeIterator_$external_class_instanceof' : (x) => x instanceof NodeIterator,
         'org.w3c.dom.acceptNode_$external_fun' : (_this, p0) => _this.acceptNode(p0),
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_19' : () => new ({})(),
+=======
+        'org.w3c.dom.Companion_$external_fun_18' : () => new ({})(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.FILTER_ACCEPT_$external_prop_getter' : (_this) => _this.FILTER_ACCEPT,
         'org.w3c.dom.FILTER_REJECT_$external_prop_getter' : (_this) => _this.FILTER_REJECT,
         'org.w3c.dom.FILTER_SKIP_$external_prop_getter' : (_this) => _this.FILTER_SKIP,
@@ -2290,8 +2540,13 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.SHOW_DOCUMENT_TYPE_$external_prop_getter' : (_this) => _this.SHOW_DOCUMENT_TYPE,
         'org.w3c.dom.SHOW_DOCUMENT_FRAGMENT_$external_prop_getter' : (_this) => _this.SHOW_DOCUMENT_FRAGMENT,
         'org.w3c.dom.SHOW_NOTATION_$external_prop_getter' : (_this) => _this.SHOW_NOTATION,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_19' : () => ({}),
         'org.w3c.dom.Companion_$external_class_instanceof_19' : (x) => x instanceof ({}),
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_18' : () => ({}),
+        'org.w3c.dom.Companion_$external_class_instanceof_18' : (x) => x instanceof ({}),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.TreeWalker_$external_fun' : () => new TreeWalker(),
         'org.w3c.dom.root_$external_prop_getter_1' : (_this) => _this.root,
         'org.w3c.dom.whatToShow_$external_prop_getter_1' : (_this) => _this.whatToShow,
@@ -2316,7 +2571,11 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.CaretPosition_$external_class_instanceof' : (x) => x instanceof CaretPosition,
         'org.w3c.dom.Touch_$external_fun' : () => new Touch(),
         'org.w3c.dom.identifier_$external_prop_getter' : (_this) => _this.identifier,
+<<<<<<< HEAD
         'org.w3c.dom.target_$external_prop_getter_2' : (_this) => _this.target,
+=======
+        'org.w3c.dom.target_$external_prop_getter_1' : (_this) => _this.target,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.screenX_$external_prop_getter_1' : (_this) => _this.screenX,
         'org.w3c.dom.screenY_$external_prop_getter_1' : (_this) => _this.screenY,
         'org.w3c.dom.clientX_$external_prop_getter' : (_this) => _this.clientX,
@@ -2388,18 +2647,28 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.encoding_$external_prop_setter' : (_this, v) => _this.encoding = v,
         'org.w3c.dom.method_$external_prop_getter' : (_this) => _this.method,
         'org.w3c.dom.method_$external_prop_setter' : (_this, v) => _this.method = v,
+<<<<<<< HEAD
         'org.w3c.dom.name_$external_prop_getter_5' : (_this) => _this.name,
         'org.w3c.dom.name_$external_prop_setter_3' : (_this, v) => _this.name = v,
         'org.w3c.dom.noValidate_$external_prop_getter' : (_this) => _this.noValidate,
         'org.w3c.dom.noValidate_$external_prop_setter' : (_this, v) => _this.noValidate = v,
         'org.w3c.dom.target_$external_prop_getter_3' : (_this) => _this.target,
         'org.w3c.dom.target_$external_prop_setter_1' : (_this, v) => _this.target = v,
+=======
+        'org.w3c.dom.name_$external_prop_getter_4' : (_this) => _this.name,
+        'org.w3c.dom.name_$external_prop_setter_2' : (_this, v) => _this.name = v,
+        'org.w3c.dom.noValidate_$external_prop_getter' : (_this) => _this.noValidate,
+        'org.w3c.dom.noValidate_$external_prop_setter' : (_this, v) => _this.noValidate = v,
+        'org.w3c.dom.target_$external_prop_getter_2' : (_this) => _this.target,
+        'org.w3c.dom.target_$external_prop_setter' : (_this, v) => _this.target = v,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.elements_$external_prop_getter' : (_this) => _this.elements,
         'org.w3c.dom.length_$external_prop_getter_3' : (_this) => _this.length,
         'org.w3c.dom.submit_$external_fun' : (_this, ) => _this.submit(),
         'org.w3c.dom.reset_$external_fun' : (_this, ) => _this.reset(),
         'org.w3c.dom.checkValidity_$external_fun_1' : (_this, ) => _this.checkValidity(),
         'org.w3c.dom.reportValidity_$external_fun_1' : (_this, ) => _this.reportValidity(),
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_20' : () => new HTMLFormElement(),
         'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_16' : (_this) => _this.ELEMENT_NODE,
         'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_16' : (_this) => _this.ATTRIBUTE_NODE,
@@ -2421,6 +2690,29 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_16' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
         'org.w3c.dom.Companion_$external_object_getInstance_20' : () => HTMLFormElement,
         'org.w3c.dom.Companion_$external_class_instanceof_20' : (x) => x instanceof HTMLFormElement,
+=======
+        'org.w3c.dom.Companion_$external_fun_19' : () => new HTMLFormElement(),
+        'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_15' : (_this) => _this.ELEMENT_NODE,
+        'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_15' : (_this) => _this.ATTRIBUTE_NODE,
+        'org.w3c.dom.TEXT_NODE_$external_prop_getter_15' : (_this) => _this.TEXT_NODE,
+        'org.w3c.dom.CDATA_SECTION_NODE_$external_prop_getter_15' : (_this) => _this.CDATA_SECTION_NODE,
+        'org.w3c.dom.ENTITY_REFERENCE_NODE_$external_prop_getter_15' : (_this) => _this.ENTITY_REFERENCE_NODE,
+        'org.w3c.dom.ENTITY_NODE_$external_prop_getter_15' : (_this) => _this.ENTITY_NODE,
+        'org.w3c.dom.PROCESSING_INSTRUCTION_NODE_$external_prop_getter_15' : (_this) => _this.PROCESSING_INSTRUCTION_NODE,
+        'org.w3c.dom.COMMENT_NODE_$external_prop_getter_15' : (_this) => _this.COMMENT_NODE,
+        'org.w3c.dom.DOCUMENT_NODE_$external_prop_getter_15' : (_this) => _this.DOCUMENT_NODE,
+        'org.w3c.dom.DOCUMENT_TYPE_NODE_$external_prop_getter_15' : (_this) => _this.DOCUMENT_TYPE_NODE,
+        'org.w3c.dom.DOCUMENT_FRAGMENT_NODE_$external_prop_getter_15' : (_this) => _this.DOCUMENT_FRAGMENT_NODE,
+        'org.w3c.dom.NOTATION_NODE_$external_prop_getter_15' : (_this) => _this.NOTATION_NODE,
+        'org.w3c.dom.DOCUMENT_POSITION_DISCONNECTED_$external_prop_getter_15' : (_this) => _this.DOCUMENT_POSITION_DISCONNECTED,
+        'org.w3c.dom.DOCUMENT_POSITION_PRECEDING_$external_prop_getter_15' : (_this) => _this.DOCUMENT_POSITION_PRECEDING,
+        'org.w3c.dom.DOCUMENT_POSITION_FOLLOWING_$external_prop_getter_15' : (_this) => _this.DOCUMENT_POSITION_FOLLOWING,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_15' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_15' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
+        'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_15' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+        'org.w3c.dom.Companion_$external_object_getInstance_19' : () => HTMLFormElement,
+        'org.w3c.dom.Companion_$external_class_instanceof_19' : (x) => x instanceof HTMLFormElement,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.HTMLFormElement_$external_class_instanceof' : (x) => x instanceof HTMLFormElement,
         'org.w3c.dom.ValidityState_$external_fun' : () => new ValidityState(),
         'org.w3c.dom.valueMissing_$external_prop_getter' : (_this) => _this.valueMissing,
@@ -2534,15 +2826,24 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.update_$external_fun' : (_this, ) => _this.update(),
         'org.w3c.dom.abort_$external_fun' : (_this, ) => _this.abort(),
         'org.w3c.dom.swapCache_$external_fun' : (_this, ) => _this.swapCache(),
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_21' : () => new ApplicationCache(),
+=======
+        'org.w3c.dom.Companion_$external_fun_20' : () => new ApplicationCache(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.UNCACHED_$external_prop_getter' : (_this) => _this.UNCACHED,
         'org.w3c.dom.IDLE_$external_prop_getter' : (_this) => _this.IDLE,
         'org.w3c.dom.CHECKING_$external_prop_getter' : (_this) => _this.CHECKING,
         'org.w3c.dom.DOWNLOADING_$external_prop_getter' : (_this) => _this.DOWNLOADING,
         'org.w3c.dom.UPDATEREADY_$external_prop_getter' : (_this) => _this.UPDATEREADY,
         'org.w3c.dom.OBSOLETE_$external_prop_getter' : (_this) => _this.OBSOLETE,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_21' : () => ApplicationCache,
         'org.w3c.dom.Companion_$external_class_instanceof_21' : (x) => x instanceof ApplicationCache,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_20' : () => ApplicationCache,
+        'org.w3c.dom.Companion_$external_class_instanceof_20' : (x) => x instanceof ApplicationCache,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.ApplicationCache_$external_class_instanceof' : (x) => x instanceof ApplicationCache,
         'org.w3c.dom.AddSearchProvider_$external_fun' : (_this, ) => _this.AddSearchProvider(),
         'org.w3c.dom.IsSearchProviderInstalled_$external_fun' : (_this, ) => _this.IsSearchProviderInstalled(),
@@ -2564,6 +2865,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.removeListener_$external_fun' : (_this, p0) => _this.removeListener(p0),
         'org.w3c.dom.removeListener_$external_fun_1' : (_this, p0) => _this.removeListener(p0),
         'org.w3c.dom.MediaQueryList_$external_class_instanceof' : (x) => x instanceof MediaQueryList,
+<<<<<<< HEAD
         'org.w3c.dom.href_$external_prop_getter_1' : (_this) => _this.href,
         'org.w3c.dom.href_$external_prop_setter_1' : (_this, v) => _this.href = v,
         'org.w3c.dom.origin_$external_prop_getter_3' : (_this) => _this.origin,
@@ -2592,6 +2894,43 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.name_$external_prop_setter_4' : (_this, v) => _this.name = v,
         'org.w3c.dom.assignedNodes_$external_fun' : (_this, p0, isDefault0) => _this.assignedNodes(isDefault0 ? undefined : p0, ),
         'org.w3c.dom.Companion_$external_fun_22' : () => new HTMLSlotElement(),
+=======
+        'org.w3c.dom.composed_$external_prop_getter' : (_this) => _this.composed,
+        'org.w3c.dom.composed_$external_prop_setter' : (_this, v) => _this.composed = v,
+        'org.w3c.dom.HTMLSlotElement_$external_fun' : () => new HTMLSlotElement(),
+        'org.w3c.dom.name_$external_prop_getter_5' : (_this) => _this.name,
+        'org.w3c.dom.name_$external_prop_setter_3' : (_this, v) => _this.name = v,
+        'org.w3c.dom.assignedNodes_$external_fun' : (_this, p0, isDefault0) => _this.assignedNodes(isDefault0 ? undefined : p0, ),
+        'org.w3c.dom.Companion_$external_fun_21' : () => new HTMLSlotElement(),
+        'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_16' : (_this) => _this.ELEMENT_NODE,
+        'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_16' : (_this) => _this.ATTRIBUTE_NODE,
+        'org.w3c.dom.TEXT_NODE_$external_prop_getter_16' : (_this) => _this.TEXT_NODE,
+        'org.w3c.dom.CDATA_SECTION_NODE_$external_prop_getter_16' : (_this) => _this.CDATA_SECTION_NODE,
+        'org.w3c.dom.ENTITY_REFERENCE_NODE_$external_prop_getter_16' : (_this) => _this.ENTITY_REFERENCE_NODE,
+        'org.w3c.dom.ENTITY_NODE_$external_prop_getter_16' : (_this) => _this.ENTITY_NODE,
+        'org.w3c.dom.PROCESSING_INSTRUCTION_NODE_$external_prop_getter_16' : (_this) => _this.PROCESSING_INSTRUCTION_NODE,
+        'org.w3c.dom.COMMENT_NODE_$external_prop_getter_16' : (_this) => _this.COMMENT_NODE,
+        'org.w3c.dom.DOCUMENT_NODE_$external_prop_getter_16' : (_this) => _this.DOCUMENT_NODE,
+        'org.w3c.dom.DOCUMENT_TYPE_NODE_$external_prop_getter_16' : (_this) => _this.DOCUMENT_TYPE_NODE,
+        'org.w3c.dom.DOCUMENT_FRAGMENT_NODE_$external_prop_getter_16' : (_this) => _this.DOCUMENT_FRAGMENT_NODE,
+        'org.w3c.dom.NOTATION_NODE_$external_prop_getter_16' : (_this) => _this.NOTATION_NODE,
+        'org.w3c.dom.DOCUMENT_POSITION_DISCONNECTED_$external_prop_getter_16' : (_this) => _this.DOCUMENT_POSITION_DISCONNECTED,
+        'org.w3c.dom.DOCUMENT_POSITION_PRECEDING_$external_prop_getter_16' : (_this) => _this.DOCUMENT_POSITION_PRECEDING,
+        'org.w3c.dom.DOCUMENT_POSITION_FOLLOWING_$external_prop_getter_16' : (_this) => _this.DOCUMENT_POSITION_FOLLOWING,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_16' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_16' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
+        'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_16' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+        'org.w3c.dom.Companion_$external_object_getInstance_21' : () => HTMLSlotElement,
+        'org.w3c.dom.Companion_$external_class_instanceof_21' : (x) => x instanceof HTMLSlotElement,
+        'org.w3c.dom.HTMLSlotElement_$external_class_instanceof' : (x) => x instanceof HTMLSlotElement,
+        'org.w3c.dom.Companion_$external_fun_22' : () => new ({})(),
+        'org.w3c.dom.Companion_$external_object_getInstance_22' : () => ({}),
+        'org.w3c.dom.Companion_$external_class_instanceof_22' : (x) => x instanceof ({}),
+        'org.w3c.dom.behavior_$external_prop_getter' : (_this) => _this.behavior,
+        'org.w3c.dom.behavior_$external_prop_setter' : (_this, v) => _this.behavior = v,
+        'org.w3c.dom.XMLDocument_$external_fun' : () => new XMLDocument(),
+        'org.w3c.dom.Companion_$external_fun_23' : () => new XMLDocument(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_17' : (_this) => _this.ELEMENT_NODE,
         'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_17' : (_this) => _this.ATTRIBUTE_NODE,
         'org.w3c.dom.TEXT_NODE_$external_prop_getter_17' : (_this) => _this.TEXT_NODE,
@@ -2610,6 +2949,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_17' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
         'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_17' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_17' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_22' : () => HTMLSlotElement,
         'org.w3c.dom.Companion_$external_class_instanceof_22' : (x) => x instanceof HTMLSlotElement,
         'org.w3c.dom.HTMLSlotElement_$external_class_instanceof' : (x) => x instanceof HTMLSlotElement,
@@ -2640,6 +2980,10 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_18' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
         'org.w3c.dom.Companion_$external_object_getInstance_24' : () => XMLDocument,
         'org.w3c.dom.Companion_$external_class_instanceof_24' : (x) => x instanceof XMLDocument,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_23' : () => XMLDocument,
+        'org.w3c.dom.Companion_$external_class_instanceof_23' : (x) => x instanceof XMLDocument,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.XMLDocument_$external_class_instanceof' : (x) => x instanceof XMLDocument,
         'org.w3c.dom.dataTransfer_$external_prop_getter_1' : (_this) => _this.dataTransfer,
         'org.w3c.dom.dataTransfer_$external_prop_setter' : (_this, v) => _this.dataTransfer = v,
@@ -2665,6 +3009,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.insertData_$external_fun' : (_this, p0, p1) => _this.insertData(p0, p1),
         'org.w3c.dom.deleteData_$external_fun' : (_this, p0, p1) => _this.deleteData(p0, p1),
         'org.w3c.dom.replaceData_$external_fun' : (_this, p0, p1, p2) => _this.replaceData(p0, p1, p2),
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_25' : () => new CharacterData(),
         'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_19' : (_this) => _this.ELEMENT_NODE,
         'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_19' : (_this) => _this.ATTRIBUTE_NODE,
@@ -2686,6 +3031,29 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_19' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
         'org.w3c.dom.Companion_$external_object_getInstance_25' : () => CharacterData,
         'org.w3c.dom.Companion_$external_class_instanceof_25' : (x) => x instanceof CharacterData,
+=======
+        'org.w3c.dom.Companion_$external_fun_24' : () => new CharacterData(),
+        'org.w3c.dom.ELEMENT_NODE_$external_prop_getter_18' : (_this) => _this.ELEMENT_NODE,
+        'org.w3c.dom.ATTRIBUTE_NODE_$external_prop_getter_18' : (_this) => _this.ATTRIBUTE_NODE,
+        'org.w3c.dom.TEXT_NODE_$external_prop_getter_18' : (_this) => _this.TEXT_NODE,
+        'org.w3c.dom.CDATA_SECTION_NODE_$external_prop_getter_18' : (_this) => _this.CDATA_SECTION_NODE,
+        'org.w3c.dom.ENTITY_REFERENCE_NODE_$external_prop_getter_18' : (_this) => _this.ENTITY_REFERENCE_NODE,
+        'org.w3c.dom.ENTITY_NODE_$external_prop_getter_18' : (_this) => _this.ENTITY_NODE,
+        'org.w3c.dom.PROCESSING_INSTRUCTION_NODE_$external_prop_getter_18' : (_this) => _this.PROCESSING_INSTRUCTION_NODE,
+        'org.w3c.dom.COMMENT_NODE_$external_prop_getter_18' : (_this) => _this.COMMENT_NODE,
+        'org.w3c.dom.DOCUMENT_NODE_$external_prop_getter_18' : (_this) => _this.DOCUMENT_NODE,
+        'org.w3c.dom.DOCUMENT_TYPE_NODE_$external_prop_getter_18' : (_this) => _this.DOCUMENT_TYPE_NODE,
+        'org.w3c.dom.DOCUMENT_FRAGMENT_NODE_$external_prop_getter_18' : (_this) => _this.DOCUMENT_FRAGMENT_NODE,
+        'org.w3c.dom.NOTATION_NODE_$external_prop_getter_18' : (_this) => _this.NOTATION_NODE,
+        'org.w3c.dom.DOCUMENT_POSITION_DISCONNECTED_$external_prop_getter_18' : (_this) => _this.DOCUMENT_POSITION_DISCONNECTED,
+        'org.w3c.dom.DOCUMENT_POSITION_PRECEDING_$external_prop_getter_18' : (_this) => _this.DOCUMENT_POSITION_PRECEDING,
+        'org.w3c.dom.DOCUMENT_POSITION_FOLLOWING_$external_prop_getter_18' : (_this) => _this.DOCUMENT_POSITION_FOLLOWING,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINS_$external_prop_getter_18' : (_this) => _this.DOCUMENT_POSITION_CONTAINS,
+        'org.w3c.dom.DOCUMENT_POSITION_CONTAINED_BY_$external_prop_getter_18' : (_this) => _this.DOCUMENT_POSITION_CONTAINED_BY,
+        'org.w3c.dom.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC_$external_prop_getter_18' : (_this) => _this.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC,
+        'org.w3c.dom.Companion_$external_object_getInstance_24' : () => CharacterData,
+        'org.w3c.dom.Companion_$external_class_instanceof_24' : (x) => x instanceof CharacterData,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.CharacterData_$external_class_instanceof' : (x) => x instanceof CharacterData,
         'org.w3c.dom.x_$external_prop_getter_4' : (_this) => _this.x,
         'org.w3c.dom.x_$external_prop_setter_3' : (_this, v) => _this.x = v,
@@ -2695,9 +3063,15 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.width_$external_prop_setter_1' : (_this, v) => _this.width = v,
         'org.w3c.dom.height_$external_prop_getter_3' : (_this) => _this.height,
         'org.w3c.dom.height_$external_prop_setter_1' : (_this, v) => _this.height = v,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_26' : () => new ({})(),
         'org.w3c.dom.Companion_$external_object_getInstance_26' : () => ({}),
         'org.w3c.dom.Companion_$external_class_instanceof_26' : (x) => x instanceof ({}),
+=======
+        'org.w3c.dom.Companion_$external_fun_25' : () => new ({})(),
+        'org.w3c.dom.Companion_$external_object_getInstance_25' : () => ({}),
+        'org.w3c.dom.Companion_$external_class_instanceof_25' : (x) => x instanceof ({}),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.DOMPointReadOnly_$external_fun' : (p0, p1, p2, p3) => new DOMPointReadOnly(p0, p1, p2, p3),
         'org.w3c.dom.x_$external_prop_getter_5' : (_this) => _this.x,
         'org.w3c.dom.y_$external_prop_getter_5' : (_this) => _this.y,
@@ -2710,59 +3084,108 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.BeforeUnloadEvent_$external_fun' : () => new BeforeUnloadEvent(),
         'org.w3c.dom.returnValue_$external_prop_getter' : (_this) => _this.returnValue,
         'org.w3c.dom.returnValue_$external_prop_setter' : (_this, v) => _this.returnValue = v,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_27' : () => new BeforeUnloadEvent(),
+=======
+        'org.w3c.dom.Companion_$external_fun_26' : () => new BeforeUnloadEvent(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.NONE_$external_prop_getter_1' : (_this) => _this.NONE,
         'org.w3c.dom.CAPTURING_PHASE_$external_prop_getter_1' : (_this) => _this.CAPTURING_PHASE,
         'org.w3c.dom.AT_TARGET_$external_prop_getter_1' : (_this) => _this.AT_TARGET,
         'org.w3c.dom.BUBBLING_PHASE_$external_prop_getter_1' : (_this) => _this.BUBBLING_PHASE,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_27' : () => BeforeUnloadEvent,
         'org.w3c.dom.Companion_$external_class_instanceof_27' : (x) => x instanceof BeforeUnloadEvent,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_26' : () => BeforeUnloadEvent,
+        'org.w3c.dom.Companion_$external_class_instanceof_26' : (x) => x instanceof BeforeUnloadEvent,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.BeforeUnloadEvent_$external_class_instanceof' : (x) => x instanceof BeforeUnloadEvent,
         'org.w3c.dom.HashChangeEvent_$external_fun' : (p0, p1, isDefault0) => new HashChangeEvent(p0, isDefault0 ? undefined : p1, ),
         'org.w3c.dom.oldURL_$external_prop_getter' : (_this) => _this.oldURL,
         'org.w3c.dom.newURL_$external_prop_getter' : (_this) => _this.newURL,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_28' : () => new HashChangeEvent(),
+=======
+        'org.w3c.dom.Companion_$external_fun_27' : () => new HashChangeEvent(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.NONE_$external_prop_getter_2' : (_this) => _this.NONE,
         'org.w3c.dom.CAPTURING_PHASE_$external_prop_getter_2' : (_this) => _this.CAPTURING_PHASE,
         'org.w3c.dom.AT_TARGET_$external_prop_getter_2' : (_this) => _this.AT_TARGET,
         'org.w3c.dom.BUBBLING_PHASE_$external_prop_getter_2' : (_this) => _this.BUBBLING_PHASE,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_28' : () => HashChangeEvent,
         'org.w3c.dom.Companion_$external_class_instanceof_28' : (x) => x instanceof HashChangeEvent,
         'org.w3c.dom.HashChangeEvent_$external_class_instanceof' : (x) => x instanceof HashChangeEvent,
         'org.w3c.dom.MessageEvent_$external_fun' : (p0, p1, isDefault0) => new MessageEvent(p0, isDefault0 ? undefined : p1, ),
         'org.w3c.dom.data_$external_prop_getter_1' : (_this) => _this.data,
         'org.w3c.dom.origin_$external_prop_getter_4' : (_this) => _this.origin,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_27' : () => HashChangeEvent,
+        'org.w3c.dom.Companion_$external_class_instanceof_27' : (x) => x instanceof HashChangeEvent,
+        'org.w3c.dom.HashChangeEvent_$external_class_instanceof' : (x) => x instanceof HashChangeEvent,
+        'org.w3c.dom.MessageEvent_$external_fun' : (p0, p1, isDefault0) => new MessageEvent(p0, isDefault0 ? undefined : p1, ),
+        'org.w3c.dom.data_$external_prop_getter_1' : (_this) => _this.data,
+        'org.w3c.dom.origin_$external_prop_getter_3' : (_this) => _this.origin,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.lastEventId_$external_prop_getter' : (_this) => _this.lastEventId,
         'org.w3c.dom.source_$external_prop_getter' : (_this) => _this.source,
         'org.w3c.dom.ports_$external_prop_getter' : (_this) => _this.ports,
         'org.w3c.dom.initMessageEvent_$external_fun' : (_this, p0, p1, p2, p3, p4, p5, p6, p7) => _this.initMessageEvent(p0, p1, p2, p3, p4, p5, p6, p7),
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_29' : () => new MessageEvent(),
+=======
+        'org.w3c.dom.Companion_$external_fun_28' : () => new MessageEvent(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.NONE_$external_prop_getter_3' : (_this) => _this.NONE,
         'org.w3c.dom.CAPTURING_PHASE_$external_prop_getter_3' : (_this) => _this.CAPTURING_PHASE,
         'org.w3c.dom.AT_TARGET_$external_prop_getter_3' : (_this) => _this.AT_TARGET,
         'org.w3c.dom.BUBBLING_PHASE_$external_prop_getter_3' : (_this) => _this.BUBBLING_PHASE,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_29' : () => MessageEvent,
         'org.w3c.dom.Companion_$external_class_instanceof_29' : (x) => x instanceof MessageEvent,
         'org.w3c.dom.MessageEvent_$external_class_instanceof' : (x) => x instanceof MessageEvent,
         'org.w3c.dom.PageTransitionEvent_$external_fun' : (p0, p1, isDefault0) => new PageTransitionEvent(p0, isDefault0 ? undefined : p1, ),
         'org.w3c.dom.persisted_$external_prop_getter' : (_this) => _this.persisted,
         'org.w3c.dom.Companion_$external_fun_30' : () => new PageTransitionEvent(),
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_28' : () => MessageEvent,
+        'org.w3c.dom.Companion_$external_class_instanceof_28' : (x) => x instanceof MessageEvent,
+        'org.w3c.dom.MessageEvent_$external_class_instanceof' : (x) => x instanceof MessageEvent,
+        'org.w3c.dom.PageTransitionEvent_$external_fun' : (p0, p1, isDefault0) => new PageTransitionEvent(p0, isDefault0 ? undefined : p1, ),
+        'org.w3c.dom.persisted_$external_prop_getter' : (_this) => _this.persisted,
+        'org.w3c.dom.Companion_$external_fun_29' : () => new PageTransitionEvent(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.NONE_$external_prop_getter_4' : (_this) => _this.NONE,
         'org.w3c.dom.CAPTURING_PHASE_$external_prop_getter_4' : (_this) => _this.CAPTURING_PHASE,
         'org.w3c.dom.AT_TARGET_$external_prop_getter_4' : (_this) => _this.AT_TARGET,
         'org.w3c.dom.BUBBLING_PHASE_$external_prop_getter_4' : (_this) => _this.BUBBLING_PHASE,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_30' : () => PageTransitionEvent,
         'org.w3c.dom.Companion_$external_class_instanceof_30' : (x) => x instanceof PageTransitionEvent,
         'org.w3c.dom.PageTransitionEvent_$external_class_instanceof' : (x) => x instanceof PageTransitionEvent,
         'org.w3c.dom.PopStateEvent_$external_fun' : (p0, p1, isDefault0) => new PopStateEvent(p0, isDefault0 ? undefined : p1, ),
         'org.w3c.dom.state_$external_prop_getter_1' : (_this) => _this.state,
         'org.w3c.dom.Companion_$external_fun_31' : () => new PopStateEvent(),
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_29' : () => PageTransitionEvent,
+        'org.w3c.dom.Companion_$external_class_instanceof_29' : (x) => x instanceof PageTransitionEvent,
+        'org.w3c.dom.PageTransitionEvent_$external_class_instanceof' : (x) => x instanceof PageTransitionEvent,
+        'org.w3c.dom.PopStateEvent_$external_fun' : (p0, p1, isDefault0) => new PopStateEvent(p0, isDefault0 ? undefined : p1, ),
+        'org.w3c.dom.state_$external_prop_getter_1' : (_this) => _this.state,
+        'org.w3c.dom.Companion_$external_fun_30' : () => new PopStateEvent(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.NONE_$external_prop_getter_5' : (_this) => _this.NONE,
         'org.w3c.dom.CAPTURING_PHASE_$external_prop_getter_5' : (_this) => _this.CAPTURING_PHASE,
         'org.w3c.dom.AT_TARGET_$external_prop_getter_5' : (_this) => _this.AT_TARGET,
         'org.w3c.dom.BUBBLING_PHASE_$external_prop_getter_5' : (_this) => _this.BUBBLING_PHASE,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_31' : () => PopStateEvent,
         'org.w3c.dom.Companion_$external_class_instanceof_31' : (x) => x instanceof PopStateEvent,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_30' : () => PopStateEvent,
+        'org.w3c.dom.Companion_$external_class_instanceof_30' : (x) => x instanceof PopStateEvent,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.PopStateEvent_$external_class_instanceof' : (x) => x instanceof PopStateEvent,
         'org.w3c.dom.StorageEvent_$external_fun' : (p0, p1, isDefault0) => new StorageEvent(p0, isDefault0 ? undefined : p1, ),
         'org.w3c.dom.key_$external_prop_getter' : (_this) => _this.key,
@@ -2770,24 +3193,42 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.newValue_$external_prop_getter' : (_this) => _this.newValue,
         'org.w3c.dom.url_$external_prop_getter' : (_this) => _this.url,
         'org.w3c.dom.storageArea_$external_prop_getter' : (_this) => _this.storageArea,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_32' : () => new StorageEvent(),
+=======
+        'org.w3c.dom.Companion_$external_fun_31' : () => new StorageEvent(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.NONE_$external_prop_getter_6' : (_this) => _this.NONE,
         'org.w3c.dom.CAPTURING_PHASE_$external_prop_getter_6' : (_this) => _this.CAPTURING_PHASE,
         'org.w3c.dom.AT_TARGET_$external_prop_getter_6' : (_this) => _this.AT_TARGET,
         'org.w3c.dom.BUBBLING_PHASE_$external_prop_getter_6' : (_this) => _this.BUBBLING_PHASE,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_32' : () => StorageEvent,
         'org.w3c.dom.Companion_$external_class_instanceof_32' : (x) => x instanceof StorageEvent,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_31' : () => StorageEvent,
+        'org.w3c.dom.Companion_$external_class_instanceof_31' : (x) => x instanceof StorageEvent,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.StorageEvent_$external_class_instanceof' : (x) => x instanceof StorageEvent,
         'org.w3c.dom.PromiseRejectionEvent_$external_fun' : (p0, p1) => new PromiseRejectionEvent(p0, p1),
         'org.w3c.dom.promise_$external_prop_getter' : (_this) => _this.promise,
         'org.w3c.dom.reason_$external_prop_getter' : (_this) => _this.reason,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_33' : () => new PromiseRejectionEvent(),
+=======
+        'org.w3c.dom.Companion_$external_fun_32' : () => new PromiseRejectionEvent(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.NONE_$external_prop_getter_7' : (_this) => _this.NONE,
         'org.w3c.dom.CAPTURING_PHASE_$external_prop_getter_7' : (_this) => _this.CAPTURING_PHASE,
         'org.w3c.dom.AT_TARGET_$external_prop_getter_7' : (_this) => _this.AT_TARGET,
         'org.w3c.dom.BUBBLING_PHASE_$external_prop_getter_7' : (_this) => _this.BUBBLING_PHASE,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_object_getInstance_33' : () => PromiseRejectionEvent,
         'org.w3c.dom.Companion_$external_class_instanceof_33' : (x) => x instanceof PromiseRejectionEvent,
+=======
+        'org.w3c.dom.Companion_$external_object_getInstance_32' : () => PromiseRejectionEvent,
+        'org.w3c.dom.Companion_$external_class_instanceof_32' : (x) => x instanceof PromiseRejectionEvent,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.PromiseRejectionEvent_$external_class_instanceof' : (x) => x instanceof PromiseRejectionEvent,
         'org.w3c.dom.ImageBitmap_$external_fun' : () => new ImageBitmap(),
         'org.w3c.dom.width_$external_prop_getter_4' : (_this) => _this.width,
@@ -2814,9 +3255,15 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.getItem_$external_fun' : (_this, p0) => _this.getItem(p0),
         'org.w3c.dom.setItem_$external_fun' : (_this, p0, p1) => _this.setItem(p0, p1),
         'org.w3c.dom.Storage_$external_class_instanceof' : (x) => x instanceof Storage,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_34' : () => new ({})(),
         'org.w3c.dom.Companion_$external_object_getInstance_34' : () => ({}),
         'org.w3c.dom.Companion_$external_class_instanceof_34' : (x) => x instanceof ({}),
+=======
+        'org.w3c.dom.Companion_$external_fun_33' : () => new ({})(),
+        'org.w3c.dom.Companion_$external_object_getInstance_33' : () => ({}),
+        'org.w3c.dom.Companion_$external_class_instanceof_33' : (x) => x instanceof ({}),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.extends_$external_prop_getter' : (_this) => _this.extends,
         'org.w3c.dom.extends_$external_prop_setter' : (_this, v) => _this.extends = v,
         'org.w3c.dom.appCodeName_$external_prop_getter' : (_this) => _this.appCodeName,
@@ -2846,9 +3293,15 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.hardwareConcurrency_$external_prop_getter' : (_this) => _this.hardwareConcurrency,
         'org.w3c.dom.flatten_$external_prop_getter' : (_this) => _this.flatten,
         'org.w3c.dom.flatten_$external_prop_setter' : (_this, v) => _this.flatten = v,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_35' : () => new ({})(),
         'org.w3c.dom.Companion_$external_object_getInstance_35' : () => ({}),
         'org.w3c.dom.Companion_$external_class_instanceof_35' : (x) => x instanceof ({}),
+=======
+        'org.w3c.dom.Companion_$external_fun_34' : () => new ({})(),
+        'org.w3c.dom.Companion_$external_object_getInstance_34' : () => ({}),
+        'org.w3c.dom.Companion_$external_class_instanceof_34' : (x) => x instanceof ({}),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.DataTransferItemList_$external_fun' : () => new DataTransferItemList(),
         'org.w3c.dom.length_$external_prop_getter_7' : (_this) => _this.length,
         'org.w3c.dom.add_$external_fun_1' : (_this, p0, p1) => _this.add(p0, p1),
@@ -2904,7 +3357,11 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.newURL_$external_prop_setter' : (_this, v) => _this.newURL = v,
         'org.w3c.dom.data_$external_prop_getter_2' : (_this) => _this.data,
         'org.w3c.dom.data_$external_prop_setter_1' : (_this, v) => _this.data = v,
+<<<<<<< HEAD
         'org.w3c.dom.origin_$external_prop_getter_5' : (_this) => _this.origin,
+=======
+        'org.w3c.dom.origin_$external_prop_getter_4' : (_this) => _this.origin,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.origin_$external_prop_setter' : (_this, v) => _this.origin = v,
         'org.w3c.dom.lastEventId_$external_prop_getter_1' : (_this) => _this.lastEventId,
         'org.w3c.dom.lastEventId_$external_prop_setter' : (_this, v) => _this.lastEventId = v,
@@ -2937,6 +3394,12 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.promise_$external_prop_setter' : (_this, v) => _this.promise = v,
         'org.w3c.dom.reason_$external_prop_getter_1' : (_this) => _this.reason,
         'org.w3c.dom.reason_$external_prop_setter' : (_this, v) => _this.reason = v,
+<<<<<<< HEAD
+=======
+        'org.w3c.dom.Companion_$external_fun_35' : () => new ({})(),
+        'org.w3c.dom.Companion_$external_object_getInstance_35' : () => ({}),
+        'org.w3c.dom.Companion_$external_class_instanceof_35' : (x) => x instanceof ({}),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.Companion_$external_fun_36' : () => new ({})(),
         'org.w3c.dom.Companion_$external_object_getInstance_36' : () => ({}),
         'org.w3c.dom.Companion_$external_class_instanceof_36' : (x) => x instanceof ({}),
@@ -2946,9 +3409,12 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.Companion_$external_fun_38' : () => new ({})(),
         'org.w3c.dom.Companion_$external_object_getInstance_38' : () => ({}),
         'org.w3c.dom.Companion_$external_class_instanceof_38' : (x) => x instanceof ({}),
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_39' : () => new ({})(),
         'org.w3c.dom.Companion_$external_object_getInstance_39' : () => ({}),
         'org.w3c.dom.Companion_$external_class_instanceof_39' : (x) => x instanceof ({}),
+=======
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.PluginArray_$external_fun' : () => new PluginArray(),
         'org.w3c.dom.refresh_$external_fun' : (_this, p0, isDefault0) => _this.refresh(isDefault0 ? undefined : p0, ),
         'org.w3c.dom.item_$external_fun_7' : (_this, p0) => _this.item(p0),
@@ -2960,7 +3426,11 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.MimeTypeArray_$external_class_instanceof' : (x) => x instanceof MimeTypeArray,
         'org.w3c.dom.DataTransferItem_$external_fun' : () => new DataTransferItem(),
         'org.w3c.dom.kind_$external_prop_getter' : (_this) => _this.kind,
+<<<<<<< HEAD
         'org.w3c.dom.type_$external_prop_getter_3' : (_this) => _this.type,
+=======
+        'org.w3c.dom.type_$external_prop_getter_2' : (_this) => _this.type,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.getAsString_$external_fun' : (_this, p0) => _this.getAsString(p0),
         'org.w3c.dom.__convertKotlinClosureToJsClosure_((String)->Unit)' : (f) => (p0) => wasmExports['__callFunction_((String)->Unit)'](f, p0),
         'org.w3c.dom.getAsFile_$external_fun' : (_this, ) => _this.getAsFile(),
@@ -3036,14 +3506,22 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.composed_$external_prop_getter_1' : (_this) => _this.composed,
         'org.w3c.dom.composed_$external_prop_setter_1' : (_this, v) => _this.composed = v,
         'org.w3c.dom.Plugin_$external_fun' : () => new Plugin(),
+<<<<<<< HEAD
         'org.w3c.dom.name_$external_prop_getter_7' : (_this) => _this.name,
+=======
+        'org.w3c.dom.name_$external_prop_getter_6' : (_this) => _this.name,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.description_$external_prop_getter' : (_this) => _this.description,
         'org.w3c.dom.filename_$external_prop_getter' : (_this) => _this.filename,
         'org.w3c.dom.item_$external_fun_9' : (_this, p0) => _this.item(p0),
         'org.w3c.dom.namedItem_$external_fun_4' : (_this, p0) => _this.namedItem(p0),
         'org.w3c.dom.Plugin_$external_class_instanceof' : (x) => x instanceof Plugin,
         'org.w3c.dom.MimeType_$external_fun' : () => new MimeType(),
+<<<<<<< HEAD
         'org.w3c.dom.type_$external_prop_getter_4' : (_this) => _this.type,
+=======
+        'org.w3c.dom.type_$external_prop_getter_3' : (_this) => _this.type,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.description_$external_prop_getter_1' : (_this) => _this.description,
         'org.w3c.dom.suffixes_$external_prop_getter' : (_this) => _this.suffixes,
         'org.w3c.dom.enabledPlugin_$external_prop_getter' : (_this) => _this.enabledPlugin,
@@ -3056,9 +3534,15 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.capture_$external_prop_setter' : (_this, v) => _this.capture = v,
         'org.w3c.dom.onerror_$external_prop_getter_3' : (_this) => _this.onerror,
         'org.w3c.dom.onerror_$external_prop_setter_3' : (_this, v) => _this.onerror = v,
+<<<<<<< HEAD
         'org.w3c.dom.Companion_$external_fun_40' : () => new ({})(),
         'org.w3c.dom.Companion_$external_object_getInstance_40' : () => ({}),
         'org.w3c.dom.Companion_$external_class_instanceof_40' : (x) => x instanceof ({}),
+=======
+        'org.w3c.dom.Companion_$external_fun_39' : () => new ({})(),
+        'org.w3c.dom.Companion_$external_object_getInstance_39' : () => ({}),
+        'org.w3c.dom.Companion_$external_class_instanceof_39' : (x) => x instanceof ({}),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.dom.mediacapture.MediaDevices_$external_fun' : () => new MediaDevices(),
         'org.w3c.dom.mediacapture.ondevicechange_$external_prop_getter' : (_this) => _this.ondevicechange,
         'org.w3c.dom.mediacapture.ondevicechange_$external_prop_setter' : (_this, v) => _this.ondevicechange = v,
@@ -3609,6 +4093,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.svg.baseVal_$external_prop_setter' : (_this, v) => _this.baseVal = v,
         'org.w3c.dom.svg.animVal_$external_prop_getter_4' : (_this) => _this.animVal,
         'org.w3c.dom.svg.SVGAnimatedString_$external_class_instanceof' : (x) => x instanceof SVGAnimatedString,
+<<<<<<< HEAD
         'org.w3c.dom.url.URLSearchParams_$external_fun' : (p0, isDefault0) => new URLSearchParams(isDefault0 ? undefined : p0, ),
         'org.w3c.dom.url.append_$external_fun' : (_this, p0, p1) => _this.append(p0, p1),
         'org.w3c.dom.url.delete_$external_fun' : (_this, p0) => _this.delete(p0),
@@ -3617,6 +4102,8 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.dom.url.has_$external_fun' : (_this, p0) => _this.has(p0),
         'org.w3c.dom.url.set_$external_fun' : (_this, p0, p1) => _this.set(p0, p1),
         'org.w3c.dom.url.URLSearchParams_$external_class_instanceof' : (x) => x instanceof URLSearchParams,
+=======
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.fetch.Response_$external_fun' : (p0, p1, isDefault0, isDefault1) => new Response(isDefault0 ? undefined : p0, isDefault1 ? undefined : p1, ),
         'org.w3c.fetch.type_$external_prop_getter' : (_this) => _this.type,
         'org.w3c.fetch.url_$external_prop_getter' : (_this) => _this.url,
@@ -3726,6 +4213,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.fetch.Companion_$external_fun_7' : () => new ({})(),
         'org.w3c.fetch.Companion_$external_object_getInstance_7' : () => ({}),
         'org.w3c.fetch.Companion_$external_class_instanceof_7' : (x) => x instanceof ({}),
+<<<<<<< HEAD
         'org.w3c.files.FileReader_$external_fun' : () => new FileReader(),
         'org.w3c.files.readyState_$external_prop_getter' : (_this) => _this.readyState,
         'org.w3c.files.result_$external_prop_getter' : (_this) => _this.result,
@@ -3754,6 +4242,8 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.files.Companion_$external_object_getInstance' : () => FileReader,
         'org.w3c.files.Companion_$external_class_instanceof' : (x) => x instanceof FileReader,
         'org.w3c.files.FileReader_$external_class_instanceof' : (x) => x instanceof FileReader,
+=======
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.files.FileList_$external_fun' : () => new FileList(),
         'org.w3c.files.item_$external_fun' : (_this, p0) => _this.item(p0),
         'org.w3c.files.FileList_$external_class_instanceof' : (x) => x instanceof FileList,
@@ -3964,6 +4454,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.workers.Companion_$external_fun' : () => new ({})(),
         'org.w3c.workers.Companion_$external_object_getInstance' : () => ({}),
         'org.w3c.workers.Companion_$external_class_instanceof' : (x) => x instanceof ({}),
+<<<<<<< HEAD
         'org.w3c.xhr.XMLHttpRequest_$external_fun' : () => new XMLHttpRequest(),
         'org.w3c.xhr.onreadystatechange_$external_prop_getter' : (_this) => _this.onreadystatechange,
         'org.w3c.xhr.onreadystatechange_$external_prop_setter' : (_this, v) => _this.onreadystatechange = v,
@@ -4003,15 +4494,22 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.xhr.Companion_$external_object_getInstance' : () => XMLHttpRequest,
         'org.w3c.xhr.Companion_$external_class_instanceof' : (x) => x instanceof XMLHttpRequest,
         'org.w3c.xhr.XMLHttpRequest_$external_class_instanceof' : (x) => x instanceof XMLHttpRequest,
+=======
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.xhr.ProgressEvent_$external_fun' : (p0, p1, isDefault0) => new ProgressEvent(p0, isDefault0 ? undefined : p1, ),
         'org.w3c.xhr.lengthComputable_$external_prop_getter' : (_this) => _this.lengthComputable,
         'org.w3c.xhr.loaded_$external_prop_getter' : (_this) => _this.loaded,
         'org.w3c.xhr.total_$external_prop_getter' : (_this) => _this.total,
+<<<<<<< HEAD
         'org.w3c.xhr.Companion_$external_fun_1' : () => new ProgressEvent(),
+=======
+        'org.w3c.xhr.Companion_$external_fun' : () => new ProgressEvent(),
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.xhr.NONE_$external_prop_getter' : (_this) => _this.NONE,
         'org.w3c.xhr.CAPTURING_PHASE_$external_prop_getter' : (_this) => _this.CAPTURING_PHASE,
         'org.w3c.xhr.AT_TARGET_$external_prop_getter' : (_this) => _this.AT_TARGET,
         'org.w3c.xhr.BUBBLING_PHASE_$external_prop_getter' : (_this) => _this.BUBBLING_PHASE,
+<<<<<<< HEAD
         'org.w3c.xhr.Companion_$external_object_getInstance_1' : () => ProgressEvent,
         'org.w3c.xhr.Companion_$external_class_instanceof_1' : (x) => x instanceof ProgressEvent,
         'org.w3c.xhr.ProgressEvent_$external_class_instanceof' : (x) => x instanceof ProgressEvent,
@@ -4036,6 +4534,17 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.xhr.Companion_$external_fun_2' : () => new ({})(),
         'org.w3c.xhr.Companion_$external_object_getInstance_2' : () => ({}),
         'org.w3c.xhr.Companion_$external_class_instanceof_2' : (x) => x instanceof ({}),
+=======
+        'org.w3c.xhr.Companion_$external_object_getInstance' : () => ProgressEvent,
+        'org.w3c.xhr.Companion_$external_class_instanceof' : (x) => x instanceof ProgressEvent,
+        'org.w3c.xhr.ProgressEvent_$external_class_instanceof' : (x) => x instanceof ProgressEvent,
+        'org.w3c.xhr.lengthComputable_$external_prop_getter_1' : (_this) => _this.lengthComputable,
+        'org.w3c.xhr.lengthComputable_$external_prop_setter' : (_this, v) => _this.lengthComputable = v,
+        'org.w3c.xhr.loaded_$external_prop_getter_1' : (_this) => _this.loaded,
+        'org.w3c.xhr.loaded_$external_prop_setter' : (_this, v) => _this.loaded = v,
+        'org.w3c.xhr.total_$external_prop_getter_1' : (_this) => _this.total,
+        'org.w3c.xhr.total_$external_prop_setter' : (_this, v) => _this.total = v,
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
         'org.w3c.xhr.FormData_$external_fun' : (p0, isDefault0) => new FormData(isDefault0 ? undefined : p0, ),
         'org.w3c.xhr.append_$external_fun' : (_this, p0, p1) => _this.append(p0, p1),
         'org.w3c.xhr.append_$external_fun_1' : (_this, p0, p1, p2, isDefault0) => _this.append(p0, p1, isDefault0 ? undefined : p2, ),
@@ -4045,6 +4554,7 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.xhr.has_$external_fun' : (_this, p0) => _this.has(p0),
         'org.w3c.xhr.set_$external_fun' : (_this, p0, p1) => _this.set(p0, p1),
         'org.w3c.xhr.set_$external_fun_1' : (_this, p0, p1, p2, isDefault0) => _this.set(p0, p1, isDefault0 ? undefined : p2, ),
+<<<<<<< HEAD
         'org.w3c.xhr.FormData_$external_class_instanceof' : (x) => x instanceof FormData,
         'org.w3c.xhr.lengthComputable_$external_prop_getter_1' : (_this) => _this.lengthComputable,
         'org.w3c.xhr.lengthComputable_$external_prop_setter' : (_this, v) => _this.lengthComputable = v,
@@ -4052,6 +4562,9 @@ export async function instantiate(imports={}, runInitializer=true) {
         'org.w3c.xhr.loaded_$external_prop_setter' : (_this, v) => _this.loaded = v,
         'org.w3c.xhr.total_$external_prop_getter_1' : (_this) => _this.total,
         'org.w3c.xhr.total_$external_prop_setter' : (_this, v) => _this.total = v
+=======
+        'org.w3c.xhr.FormData_$external_class_instanceof' : (x) => x instanceof FormData
+>>>>>>> fbae9a216f843defd84a2f37127b4971b3a19b34
     }
     
     // Placed here to give access to it from externals (js_code)
