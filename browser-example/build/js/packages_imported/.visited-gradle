@@ -1,0 +1,15 @@
+{
+  "version": "9",
+  "items": {
+    "c5de9d8b82475ff1616f842a974e9ecf": {
+      "src": "C:\\Users\\Stefan\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-wasm-js\\1.9.20\\e78c3898b024a244f7914ee5f8714db62d58929f\\kotlin-stdlib-wasm-js-1.9.20.klib"
+    },
+    "a66860f155cb10a237acb5f7d0f6d0e3": {
+      "src": "C:\\Users\\Stefan\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-js-runner\\1.9.20\\e9b1fc55af69eb09d63b271d17c217d9483241cc\\kotlin-test-js-runner-1.9.20.jar",
+      "target": "kotlin-test-js-runner\\0.0.1"
+    },
+    "0a8b2d0ef4547cb7366778f9dc06250b": {
+      "src": "C:\\Users\\Stefan\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-wasm-js\\1.9.20\\3f459027d2ef77aa030325584e032a6b414c597\\kotlin-test-wasm-js-1.9.20.klib"
+    }
+  }
+}
